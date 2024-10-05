@@ -26,6 +26,30 @@
 > 3. **Integration and Testing**: Conducted unit and integration testing to verify software stability.
 > 4. **Functional and Non-functional Requirements Analysis**: Identified project requirements and provided a user-friendly command-line interface.
 
+## Demo
+
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/00cc4c5d-2922-4299-8cfd-1a6ea70b8c51" width="800">
+  <img src="https://github.com/user-attachments/assets/4be3387d-3065-46f6-97b3-b6ff09fa9ddc" width="800">
+  <img src="https://github.com/user-attachments/assets/8b6325a9-9c7f-4135-b749-729e4bd91a76" width="800">
+  <img src="https://github.com/user-attachments/assets/26aa9cb7-4576-468c-ad2c-6338ccd53e2e" width="800">
+</div>
+
+
+## Project Structure
+
+| File | Description |
+|------|-------------|
+| `code/` | Code files |
+| `code/encrypted_and_decrypted_files` | Folder for encrypted files |
+| `code/HashValue.bin` | Stores hashed password values |
+| `code/adminKey.bin` | Password management |
+| `code/dog.jpg, dog.mp4, dog.txt` | Original files in different formats |
+| `code/se` | Compiled system files |
+| `code/se.c` | System C code |
+| `README.md` | Project information and instructions |
+
+
 ## How to Use
 > [!NOTE]
 > 1. Clone this repository:
@@ -35,7 +59,7 @@
 > 2. Configure your Minix OS and VirtualBox environment.
 > 3. Compile and run the project using:
 >   ```sh
->   make
+>   make se.c
 >   ```
 > 4. Use the command-line interface for file encryption operations.
 
